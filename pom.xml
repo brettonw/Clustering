@@ -4,7 +4,7 @@
     <name>Clustering</name>
     <groupId>com.brettonw</groupId>
     <artifactId>clustering</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
 
     <packaging>jar</packaging>
 
