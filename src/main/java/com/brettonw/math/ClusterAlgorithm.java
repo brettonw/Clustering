@@ -1,6 +1,6 @@
 package com.brettonw.math;
 
-import com.brettonw.bag.BagArray;
+import com.brettonw.bedrock.bag.BagArray;
 
 public abstract class ClusterAlgorithm {
     protected DataSet dataSet;

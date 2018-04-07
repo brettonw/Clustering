@@ -1,6 +1,6 @@
 package com.brettonw.math;
 
-import com.brettonw.bag.BagObject;
+import com.brettonw.bedrock.bag.BagObject;
 
 import java.util.Arrays;
 import java.util.Random;

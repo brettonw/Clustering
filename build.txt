@@ -1,0 +1,273 @@
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.brettonw.math.Test_Bound
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec
+Running com.brettonw.math.Test_DataSet
+12:18:09.990 [main] INFO  com.brettonw.math.DataSet (setTuples) - N: 10000
+12:18:10.000 [main] INFO  com.brettonw.math.DataSet (setTuples) - K: 2
+12:18:10.027 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 0(10.000888083979966, 89.9909321414895)
+12:18:10.027 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 1(10.012438921623257, 79.99224482208871)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.039 sec
+Running com.brettonw.math.Test_VectorQuantization
+12:18:10.046 [main] INFO  com.brettonw.math.DataSet (setTuples) - N: 1000
+12:18:10.047 [main] INFO  com.brettonw.math.DataSet (setTuples) - K: 2
+12:18:10.050 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 0(10.002301174282714, 89.88833105930998)
+12:18:10.050 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 1(10.003804830689305, 79.9777227087215)
+12:18:10.052 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - --------------------
+12:18:10.053 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Start
+12:18:10.055 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Delta: 0.0
+12:18:10.057 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (17.505560631899414, 23.449329650794503)
+12:18:10.059 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (16.24483538643707, 77.86524911840999)
+12:18:10.060 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (18.177192417985307, 68.65533655844773)
+12:18:10.061 [main] INFO  com.brettonw.math.VectorQuantization (step) - --------------------
+12:18:10.062 [main] INFO  com.brettonw.math.VectorQuantization (step) - Step
+12:18:10.064 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Delta: 1153.7725951542243
+12:18:10.066 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (37.11712846152963, 27.923787374144947)
+12:18:10.067 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (19.48914883381579, 76.88224576064455)
+12:18:10.068 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (43.6268495659513, 59.17054261209602)
+12:18:10.068 [main] INFO  com.brettonw.math.VectorQuantization (step) - --------------------
+12:18:10.069 [main] INFO  com.brettonw.math.VectorQuantization (step) - Step
+12:18:10.084 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Delta: 1961.7418184794549
+12:18:10.085 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (14.945088927505527, 19.930214492995713)
+12:18:10.086 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (19.934949561545153, 70.04959537458716)
+12:18:10.088 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (77.6813646333824, 45.04073624717877)
+12:18:10.088 [main] INFO  com.brettonw.math.VectorQuantization (step) - --------------------
+12:18:10.089 [main] INFO  com.brettonw.math.VectorQuantization (step) - Step
+12:18:10.093 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - --------------------
+12:18:10.093 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Finished
+12:18:10.094 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (14.945088927505527, 19.930214492995713)
+12:18:10.094 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (19.934949561545153, 70.04959537458716)
+12:18:10.095 [main] INFO  com.brettonw.math.VectorQuantization (<init>) - Centroid (77.6813646333824, 45.04073624717877)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+Running com.brettonw.math.Test_SpatiallyIndexed
+12:18:10.183 [main] INFO  com.brettonw.math.DataSet (setTuples) - N: 10000
+12:18:10.184 [main] INFO  com.brettonw.math.DataSet (setTuples) - K: 2
+12:18:10.185 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 0(10.001938381677832, 89.998288630679)
+12:18:10.185 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 1(10.00614745595665, 79.99922079993058)
+12:18:10.273 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (0), coordinate (10.26716843294777, 11.407329220472523), grid (0,0), indexOffset (0)
+12:18:10.274 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (180), coordinate (13.370801666760258, 15.096918506650125), grid (0,1), indexOffset (1)
+12:18:10.275 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (372), coordinate (11.374912244654977, 17.18588437944378), grid (0,2), indexOffset (2)
+12:18:10.276 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (579), coordinate (11.003642871634863, 19.663530690797515), grid (0,3), indexOffset (3)
+12:18:10.277 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (791), coordinate (10.790376162832128, 24.202021638772496), grid (0,4), indexOffset (4)
+12:18:10.278 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (993), coordinate (10.549613863502639, 27.666867915445962), grid (0,5), indexOffset (5)
+12:18:10.279 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (1188), coordinate (11.920758990378948, 29.43401323160131), grid (0,6), indexOffset (6)
+12:18:10.279 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (1254), coordinate (15.257329328316949, 11.11982779199369), grid (1,0), indexOffset (22)
+12:18:10.280 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (1443), coordinate (16.38656064689136, 13.87754660794628), grid (1,1), indexOffset (23)
+12:18:10.281 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (1634), coordinate (15.758010960781082, 17.088988540734977), grid (1,2), indexOffset (24)
+12:18:10.282 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (1823), coordinate (15.419428311824124, 21.85117110470426), grid (1,3), indexOffset (25)
+12:18:10.283 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2012), coordinate (14.366769603998852, 23.81614183948456), grid (1,4), indexOffset (26)
+12:18:10.284 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2204), coordinate (15.42969780780533, 26.10243349496226), grid (1,5), indexOffset (27)
+12:18:10.284 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2392), coordinate (16.588690338269778, 29.19246799568875), grid (1,6), indexOffset (28)
+12:18:10.286 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2440), coordinate (15.630027895191219, 60.50718184435641), grid (1,15), indexOffset (37)
+12:18:10.291 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2489), coordinate (16.40300906496117, 62.77636528204116), grid (1,16), indexOffset (38)
+12:18:10.291 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2612), coordinate (16.785481458812697, 65.44418035184373), grid (1,17), indexOffset (39)
+12:18:10.292 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2734), coordinate (15.93382764725089, 68.86895049208277), grid (1,18), indexOffset (40)
+12:18:10.292 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2857), coordinate (16.61145424492203, 71.38705098656655), grid (1,19), indexOffset (41)
+12:18:10.293 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (2968), coordinate (16.909620135837315, 75.98161266124097), grid (1,20), indexOffset (42)
+12:18:10.293 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3103), coordinate (16.17504570872047, 78.02303206328837), grid (1,21), indexOffset (43)
+12:18:10.296 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3217), coordinate (18.89110796570827, 11.73503824774507), grid (2,0), indexOffset (44)
+12:18:10.296 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3372), coordinate (18.311107896719307, 13.200870281620558), grid (2,1), indexOffset (45)
+12:18:10.297 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3509), coordinate (19.736173357192865, 18.291916787747216), grid (2,2), indexOffset (46)
+12:18:10.298 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3650), coordinate (19.12820601165953, 20.6911621345495), grid (2,3), indexOffset (47)
+12:18:10.299 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3789), coordinate (17.5518855723771, 24.172520654800294), grid (2,4), indexOffset (48)
+12:18:10.300 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (3926), coordinate (18.127461602051287, 27.883780595092208), grid (2,5), indexOffset (49)
+12:18:10.307 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4042), coordinate (17.64373540131298, 29.973395749069784), grid (2,6), indexOffset (50)
+12:18:10.315 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4076), coordinate (18.758668220872345, 60.86509438705795), grid (2,15), indexOffset (59)
+12:18:10.320 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4135), coordinate (20.62943642161769, 62.53137763403708), grid (2,16), indexOffset (60)
+12:18:10.320 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4347), coordinate (18.878536737864067, 64.71589284531092), grid (2,17), indexOffset (61)
+12:18:10.321 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4527), coordinate (20.74598073268974, 70.37259206834061), grid (2,18), indexOffset (62)
+12:18:10.321 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4713), coordinate (17.60624710091006, 72.86986031394689), grid (2,19), indexOffset (63)
+12:18:10.322 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (4916), coordinate (17.952368316420518, 74.81226910833966), grid (2,20), indexOffset (64)
+12:18:10.323 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (5101), coordinate (20.20632647946611, 77.4731773290017), grid (2,21), indexOffset (65)
+12:18:10.324 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (5291), coordinate (21.890011640188956, 60.787989957037766), grid (3,15), indexOffset (81)
+12:18:10.325 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (5323), coordinate (23.376098321367632, 64.07581146453273), grid (3,16), indexOffset (82)
+12:18:10.325 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (5522), coordinate (22.104282163014922, 66.28634497376066), grid (3,17), indexOffset (83)
+12:18:10.326 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (5709), coordinate (21.337998930479557, 68.01434235264439), grid (3,18), indexOffset (84)
+12:18:10.326 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (5877), coordinate (21.22149647285636, 71.29493607154214), grid (3,19), indexOffset (85)
+12:18:10.327 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6069), coordinate (22.518154783265235, 76.51335191908969), grid (3,20), indexOffset (86)
+12:18:10.330 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6275), coordinate (21.486038387761354, 77.13238559489568), grid (3,21), indexOffset (87)
+12:18:10.331 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6458), coordinate (24.799615695391402, 60.806756777529515), grid (4,15), indexOffset (103)
+12:18:10.332 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6467), coordinate (24.580308324382923, 61.117049196801794), grid (4,16), indexOffset (104)
+12:18:10.334 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6499), coordinate (24.996498241307087, 65.6043183116512), grid (4,17), indexOffset (105)
+12:18:10.335 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6520), coordinate (24.617804019134027, 67.3607719322577), grid (4,18), indexOffset (106)
+12:18:10.336 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6546), coordinate (24.863535301143912, 72.78914472124698), grid (4,19), indexOffset (107)
+12:18:10.337 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6572), coordinate (24.560963037943907, 74.9892727753452), grid (4,20), indexOffset (108)
+12:18:10.337 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6602), coordinate (24.969586655214897, 77.40651674571095), grid (4,21), indexOffset (109)
+12:18:10.338 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6627), coordinate (65.66014398208843, 41.736991756297506), grid (15,9), indexOffset (339)
+12:18:10.338 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6703), coordinate (68.06362740345051, 44.03407775403286), grid (15,10), indexOffset (340)
+12:18:10.338 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6835), coordinate (66.9305152425583, 46.651027172072304), grid (15,11), indexOffset (341)
+12:18:10.339 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (6966), coordinate (65.60955606378351, 49.66261045116451), grid (15,12), indexOffset (342)
+12:18:10.352 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7046), coordinate (70.99409549476341, 40.10505072578278), grid (16,9), indexOffset (361)
+12:18:10.354 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7125), coordinate (69.00154907814411, 43.11553052253517), grid (16,10), indexOffset (362)
+12:18:10.354 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7267), coordinate (70.43221033950643, 45.242167125156826), grid (16,11), indexOffset (363)
+12:18:10.360 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7438), coordinate (68.43176304342207, 48.56617541682837), grid (16,12), indexOffset (364)
+12:18:10.361 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7521), coordinate (73.82929460089177, 41.61737650345182), grid (17,9), indexOffset (383)
+12:18:10.362 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7616), coordinate (72.35582721729418, 43.395307190413014), grid (17,10), indexOffset (384)
+12:18:10.363 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7791), coordinate (72.20268683721642, 46.00870562431264), grid (17,11), indexOffset (385)
+12:18:10.363 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (7934), coordinate (72.46501262843707, 48.40542201757951), grid (17,12), indexOffset (386)
+12:18:10.364 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8019), coordinate (77.95084727513512, 40.550702409642284), grid (18,9), indexOffset (405)
+12:18:10.364 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8110), coordinate (76.8996881260056, 42.79138179659492), grid (18,10), indexOffset (406)
+12:18:10.365 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8268), coordinate (76.26485031773954, 47.646305358564895), grid (18,11), indexOffset (407)
+12:18:10.365 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8427), coordinate (76.88602103992915, 48.512131122534164), grid (18,12), indexOffset (408)
+12:18:10.366 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8527), coordinate (81.17659396823527, 40.4394676414651), grid (19,9), indexOffset (427)
+12:18:10.367 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8619), coordinate (79.64813138209873, 43.313452564415016), grid (19,10), indexOffset (428)
+12:18:10.368 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8748), coordinate (82.1812011934833, 45.42836030619852), grid (19,11), indexOffset (429)
+12:18:10.369 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8895), coordinate (82.09813736692571, 49.98392827014275), grid (19,12), indexOffset (430)
+12:18:10.370 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (8992), coordinate (85.9891639683331, 41.719865972940816), grid (20,9), indexOffset (449)
+12:18:10.371 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9068), coordinate (84.22333052168926, 44.65161493905471), grid (20,10), indexOffset (450)
+12:18:10.371 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9214), coordinate (83.6010244161123, 45.785888880591855), grid (20,11), indexOffset (451)
+12:18:10.372 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9390), coordinate (84.74455057069682, 49.2583694181225), grid (20,12), indexOffset (452)
+12:18:10.372 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9482), coordinate (87.6587657240843, 41.152284640771136), grid (21,9), indexOffset (471)
+12:18:10.377 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9591), coordinate (88.90734582534355, 44.13435833086216), grid (21,10), indexOffset (472)
+12:18:10.378 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9754), coordinate (89.7278364464747, 48.00101903561421), grid (21,11), indexOffset (473)
+12:18:10.378 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (9907), coordinate (89.91896590375904, 49.90485616024679), grid (21,12), indexOffset (474)
+12:18:10.379 [main] INFO  com.brettonw.math.SpatiallyIndexed (setTuples) - Q: 22
+12:18:10.380 [main] INFO  com.brettonw.math.SpatiallyIndexed (setTuples) - occupied cells: 77
+12:18:10.381 [main] INFO  com.brettonw.math.SpatiallyIndexed (setTuples) - occupancy: 129
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 sec
+Running com.brettonw.math.Test_Tuple
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.brettonw.math.Test_DensityBasedScan
+12:18:10.401 [main] INFO  com.brettonw.math.DataSet (setTuples) - N: 1000
+12:18:10.402 [main] INFO  com.brettonw.math.DataSet (setTuples) - K: 2
+12:18:10.402 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 0(10.006822704930777, 89.9596431066055)
+12:18:10.402 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 1(10.031853388714552, 79.97907282860719)
+12:18:10.405 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (0), coordinate (11.589438477640652, 10.146685659129954), grid (0,0), indexOffset (0)
+12:18:10.406 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (92), coordinate (15.749156979013087, 19.28825317729223), grid (0,1), indexOffset (1)
+12:18:10.408 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (179), coordinate (15.15630063976404, 28.93531852142001), grid (0,2), indexOffset (2)
+12:18:10.409 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (259), coordinate (15.05922233370713, 60.22656065992417), grid (0,7), indexOffset (7)
+12:18:10.409 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (301), coordinate (17.414662466554013, 72.61949405686906), grid (0,8), indexOffset (8)
+12:18:10.410 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (339), coordinate (16.34760527715238, 77.74438161864467), grid (0,9), indexOffset (9)
+12:18:10.410 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (365), coordinate (18.809301968487645, 16.550071561990478), grid (1,0), indexOffset (10)
+12:18:10.411 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (386), coordinate (19.808874616382294, 23.686860440623867), grid (1,1), indexOffset (11)
+12:18:10.411 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (403), coordinate (19.84849725693201, 28.9984736424432), grid (1,2), indexOffset (12)
+12:18:10.411 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (421), coordinate (22.16349513571606, 62.409704482699425), grid (1,7), indexOffset (17)
+12:18:10.412 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (496), coordinate (24.856003628905295, 71.99230639950628), grid (1,8), indexOffset (18)
+12:18:10.412 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (583), coordinate (19.775188164308997, 74.54000889654937), grid (1,9), indexOffset (19)
+12:18:10.413 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (664), coordinate (65.8532961689093, 42.961327589249926), grid (6,4), indexOffset (64)
+12:18:10.413 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (673), coordinate (65.63111282302727, 46.350818220862664), grid (6,5), indexOffset (65)
+12:18:10.415 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (676), coordinate (73.5826691505797, 41.369198931613795), grid (7,4), indexOffset (74)
+12:18:10.415 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (731), coordinate (68.26616914639033, 46.68194096961467), grid (7,5), indexOffset (75)
+12:18:10.415 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (783), coordinate (75.12439888766755, 41.29161527245338), grid (8,4), indexOffset (84)
+12:18:10.417 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (853), coordinate (76.49748506503644, 45.05061589013198), grid (8,5), indexOffset (85)
+12:18:10.418 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (905), coordinate (83.20474083112738, 43.92484267241984), grid (9,4), indexOffset (94)
+12:18:10.418 [main] DEBUG com.brettonw.math.SpatiallyIndexed (setTuples) - i (948), coordinate (86.11411964968923, 46.142383267447656), grid (9,5), indexOffset (95)
+12:18:10.418 [main] INFO  com.brettonw.math.SpatiallyIndexed (setTuples) - Q: 10
+12:18:10.419 [main] INFO  com.brettonw.math.SpatiallyIndexed (setTuples) - occupied cells: 20
+12:18:10.419 [main] INFO  com.brettonw.math.SpatiallyIndexed (setTuples) - occupancy: 50
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running com.brettonw.math.Test_AgglomeratedHierarchy
+12:18:10.468 [main] INFO  com.brettonw.math.DataSet (setTuples) - N: 100
+12:18:10.469 [main] INFO  com.brettonw.math.DataSet (setTuples) - K: 2
+12:18:10.469 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 0(10.118496036727635, 89.25529124011214)
+12:18:10.469 [main] INFO  com.brettonw.math.DataSet (setTuples) - Bounds 1(10.126533249029222, 79.13321423515907)
+12:18:10.484 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Building 100 clusters
+12:18:10.485 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Pre-computing distances for 9801 pairs
+12:18:10.497 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 9801 pair(s)
+12:18:10.504 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 9604 pair(s)
+12:18:10.507 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 9409 pair(s)
+12:18:10.511 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 9216 pair(s)
+12:18:10.522 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 9025 pair(s)
+12:18:10.535 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 8836 pair(s)
+12:18:10.537 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 8649 pair(s)
+12:18:10.540 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 8464 pair(s)
+12:18:10.543 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 8281 pair(s)
+12:18:10.546 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 8100 pair(s)
+12:18:10.548 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 7921 pair(s)
+12:18:10.552 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 7744 pair(s)
+12:18:10.554 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 7569 pair(s)
+12:18:10.556 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 7396 pair(s)
+12:18:10.559 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 7225 pair(s)
+12:18:10.561 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 7056 pair(s)
+12:18:10.571 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 6889 pair(s)
+12:18:10.572 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 6724 pair(s)
+12:18:10.573 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 6561 pair(s)
+12:18:10.575 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 6400 pair(s)
+12:18:10.576 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 6241 pair(s)
+12:18:10.578 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 6084 pair(s)
+12:18:10.580 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5929 pair(s)
+12:18:10.581 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5776 pair(s)
+12:18:10.582 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5625 pair(s)
+12:18:10.584 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5476 pair(s)
+12:18:10.585 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5329 pair(s)
+12:18:10.586 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5184 pair(s)
+12:18:10.588 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 5041 pair(s)
+12:18:10.589 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4900 pair(s)
+12:18:10.590 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4761 pair(s)
+12:18:10.591 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4624 pair(s)
+12:18:10.592 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4489 pair(s)
+12:18:10.593 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4356 pair(s)
+12:18:10.594 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4225 pair(s)
+12:18:10.595 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4096 pair(s)
+12:18:10.596 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3969 pair(s)
+12:18:10.598 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3844 pair(s)
+12:18:10.599 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3721 pair(s)
+12:18:10.600 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3600 pair(s)
+12:18:10.601 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3481 pair(s)
+12:18:10.602 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3364 pair(s)
+12:18:10.604 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3249 pair(s)
+12:18:10.605 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3136 pair(s)
+12:18:10.607 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 3025 pair(s)
+12:18:10.608 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2916 pair(s)
+12:18:10.609 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2809 pair(s)
+12:18:10.610 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2704 pair(s)
+12:18:10.611 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2601 pair(s)
+12:18:10.612 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2500 pair(s)
+12:18:10.613 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2401 pair(s)
+12:18:10.613 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2304 pair(s)
+12:18:10.614 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2209 pair(s)
+12:18:10.615 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2116 pair(s)
+12:18:10.616 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 2025 pair(s)
+12:18:10.616 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1936 pair(s)
+12:18:10.618 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1849 pair(s)
+12:18:10.620 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1764 pair(s)
+12:18:10.621 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1681 pair(s)
+12:18:10.621 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1600 pair(s)
+12:18:10.622 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1521 pair(s)
+12:18:10.636 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1444 pair(s)
+12:18:10.636 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1369 pair(s)
+12:18:10.637 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1296 pair(s)
+12:18:10.639 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1225 pair(s)
+12:18:10.647 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1156 pair(s)
+12:18:10.647 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1089 pair(s)
+12:18:10.648 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1024 pair(s)
+12:18:10.648 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 961 pair(s)
+12:18:10.649 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 900 pair(s)
+12:18:10.649 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 841 pair(s)
+12:18:10.650 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 784 pair(s)
+12:18:10.650 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 729 pair(s)
+12:18:10.651 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 676 pair(s)
+12:18:10.651 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 625 pair(s)
+12:18:10.652 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 576 pair(s)
+12:18:10.652 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 529 pair(s)
+12:18:10.655 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 484 pair(s)
+12:18:10.655 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 441 pair(s)
+12:18:10.655 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 400 pair(s)
+12:18:10.656 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 361 pair(s)
+12:18:10.656 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 324 pair(s)
+12:18:10.657 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 289 pair(s)
+12:18:10.657 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 256 pair(s)
+12:18:10.657 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 225 pair(s)
+12:18:10.657 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 196 pair(s)
+12:18:10.658 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 169 pair(s)
+12:18:10.658 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 144 pair(s)
+12:18:10.658 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 121 pair(s)
+12:18:10.659 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 100 pair(s)
+12:18:10.659 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 81 pair(s)
+12:18:10.659 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 64 pair(s)
+12:18:10.659 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 49 pair(s)
+12:18:10.660 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 36 pair(s)
+12:18:10.660 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 25 pair(s)
+12:18:10.660 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 16 pair(s)
+12:18:10.660 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 9 pair(s)
+12:18:10.661 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 4 pair(s)
+12:18:10.661 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Scan over 1 pair(s)
+12:18:10.661 [main] INFO  com.brettonw.math.AgglomeratedHierarchy (<init>) - Finished
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 sec
+
+Results :
+
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
